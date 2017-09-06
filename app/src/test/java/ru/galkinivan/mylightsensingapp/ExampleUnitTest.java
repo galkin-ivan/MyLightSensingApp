@@ -1,4 +1,4 @@
-package com.example.galkinivan.mylightsensingapp;
+package ru.galkinivan.mylightsensingapp;
 
 import org.junit.Test;
 

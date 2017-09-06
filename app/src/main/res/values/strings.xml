@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MyLightSensingApp</string>
+    <string-array name="frequencyPowers">
+        <item>Hz</item>
+        <item>kHz</item>
+    </string-array>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="frequency">Frequency</string>
+    <string name="result">Result</string>
 </resources>

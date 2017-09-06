@@ -1,4 +1,4 @@
-package com.example.galkinivan.mylightsensingapp;
+package ru.galkinivan.mylightsensingapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
