@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyLightSensingApp</string>
+    <string name="badValueError">Неверное значение</string>
+    <string name="frequency">Частота</string>
+    <string name="powerOfTwo">Степень двойки (кол-во результатов)</string>
+    <string name="requaredFeildError">Необходимо</string>
+    <string name="result">Результат</string>
+    <string name="start">Старт</string>
+    <string name="stop">Стоп</string>
+</resources>

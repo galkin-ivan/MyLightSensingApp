@@ -27,13 +27,30 @@
             android:layout_weight="0"
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:entries="@array/frequencyPowers"/>
+            android:entries="@array/frequencyPowers"
+            android:visibility="gone"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/linLayoutForPowersOfTwo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linLayoutForFrequency">
+
+        <EditText
+            android:id="@+id/editTextPowerOfTwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:hint="@string/powerOfTwo"
+            />
     </android.support.v7.widget.LinearLayoutCompat>
     <android.support.v7.widget.LinearLayoutCompat
         android:id="@+id/layoutWithButtons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/linLayoutForFrequency">
+        android:layout_below="@id/linLayoutForPowersOfTwo">
 
         <Button
             android:id="@+id/buttonStartLightSensing"
@@ -56,5 +73,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="13pt"
-        android:text="Result"/>
+        android:text="Result"
+        android:scrollbars="vertical"/>
 </RelativeLayout>
